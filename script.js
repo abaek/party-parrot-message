@@ -218,6 +218,109 @@ function drawLetter(letter, index) {
 
 		sp.append(createParrot(200, 35));
 		sp.append(createParrot(200, 70));
+	} else if (letter == 'E')  {
+		sp.append(createParrot(0, 0));
+		sp.append(createParrot(25, 0));
+		sp.append(createParrot(50, 0));
+		sp.append(createParrot(75, 0));
+		sp.append(createParrot(100, 0));
+		sp.append(createParrot(125, 0));
+		sp.append(createParrot(150, 0));
+		sp.append(createParrot(175, 0));
+		sp.append(createParrot(200, 0));
+
+		sp.append(createParrot(0, 35));
+		sp.append(createParrot(0, 70));
+		sp.append(createParrot(0, 105));
+		sp.append(createParrot(0, 140));
+
+		sp.append(createParrot(100, 35));
+		sp.append(createParrot(100, 70));
+		sp.append(createParrot(100, 105));
+		sp.append(createParrot(100, 140));
+
+		sp.append(createParrot(200, 35));
+		sp.append(createParrot(200, 70));
+		sp.append(createParrot(200, 105));
+		sp.append(createParrot(200, 140));
+	} else if (letter == 'L')  {
+		sp.append(createParrot(0, 0));
+		sp.append(createParrot(25, 0));
+		sp.append(createParrot(50, 0));
+		sp.append(createParrot(75, 0));
+		sp.append(createParrot(100, 0));
+		sp.append(createParrot(125, 0));
+		sp.append(createParrot(150, 0));
+		sp.append(createParrot(175, 0));
+		sp.append(createParrot(200, 0));
+
+		sp.append(createParrot(200, 35));
+		sp.append(createParrot(200, 70));
+		sp.append(createParrot(200, 105));
+		sp.append(createParrot(200, 140));
+	} else if (letter == 'O')  {
+		sp.append(createParrot(25, 0));
+		sp.append(createParrot(50, 0));
+		sp.append(createParrot(75, 0));
+		sp.append(createParrot(100, 0));
+		sp.append(createParrot(125, 0));
+		sp.append(createParrot(150, 0));
+		sp.append(createParrot(175, 0));
+
+		sp.append(createParrot(25, 140));
+		sp.append(createParrot(50, 140));
+		sp.append(createParrot(75, 140));
+		sp.append(createParrot(100, 140));
+		sp.append(createParrot(125, 140));
+		sp.append(createParrot(150, 140));
+		sp.append(createParrot(175, 140));
+
+		sp.append(createParrot(10, 35));
+		sp.append(createParrot(0, 70));
+
+		sp.append(createParrot(10, 105));
+		sp.append(createParrot(190, 105));
+
+		sp.append(createParrot(190, 35));
+		sp.append(createParrot(200, 70));
+	} else if (letter == 'W')  {
+		sp.append(createParrot(0, 0));
+		sp.append(createParrot(0, 70));
+		sp.append(createParrot(0, 140));
+
+		sp.append(createParrot(200, 35));
+		sp.append(createParrot(200, 105));
+
+		sp.append(createParrot(25, 0));
+		sp.append(createParrot(50, 0));
+		sp.append(createParrot(75, 0));
+
+		sp.append(createParrot(25, 70));
+		sp.append(createParrot(50, 70));
+		sp.append(createParrot(75, 70));
+		sp.append(createParrot(100, 70));
+		sp.append(createParrot(125, 70));
+
+		sp.append(createParrot(25, 140));
+		sp.append(createParrot(50, 140));
+		sp.append(createParrot(75, 140));
+
+		sp.append(createParrot(100, 5));
+		sp.append(createParrot(125, 10));
+		sp.append(createParrot(150, 15));
+		sp.append(createParrot(175, 20));
+
+		sp.append(createParrot(150, 55));
+		sp.append(createParrot(175, 50));
+
+		sp.append(createParrot(150, 85));
+		sp.append(createParrot(175, 90));
+
+		sp.append(createParrot(100, 135));
+		sp.append(createParrot(125, 130));
+		sp.append(createParrot(150, 125));
+		sp.append(createParrot(175, 120));
+
 	} else if (letter == ' ') {
 		$('#main').append("<br>");
 		return;
